@@ -1,0 +1,14 @@
+.Logo{
+    color: yellow;
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.spacer{
+    flex: 1 1 auto;
+}
+#gallery{
+    display: none;
+}

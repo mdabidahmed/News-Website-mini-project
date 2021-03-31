@@ -1,0 +1,145 @@
+html {
+    background: #f5f7f8;
+    font-family: system-ui;
+    -webkit-font-smoothing: antialiased;
+    padding: 20px 0;
+  }
+  
+ 
+  
+  .band {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+  @media (min-width: 30em) {
+    .band {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 60em) {
+    .band {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .card {
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    transition: all 0.1s ease-in;
+   border-radius: 15px 15px 15px 15px;
+   overflow:hidden;
+
+  }
+  .card:hover {
+    top: -5px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.226);
+  }
+  .card article {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  .card p {
+    flex: 1;
+    line-height: 1.4;
+  }
+  .card span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2em 0 0 0;
+  }
+  .card .thumb {
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  @media (min-width: 60em) {
+    .item-1 {
+      grid-column: 1/span 2;
+    }
+    .item-1 h1 {
+      font-size: 24px;
+    }
+  }
+
+  .trending{
+      font-size: 18px;
+      background-color: rgba(228, 27, 27, 0.76);
+      width: 160px;
+      padding-left: 20px;
+      border-radius: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: #fff;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 60px;
+  }
+
+  .para-body{
+      padding-top: 20px;
+      color: #999;
+  }
+
+  .read-more{
+      width: 100px;
+      border: 2px solid rgba(117, 113, 113, 0.555);
+      padding-left: 5px;
+      color: #999;
+  }
+  .read-more:hover{
+      background-color: #999;
+      color: #fff;
+  }
+
+  .Logo{
+    color: yellow;
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.spacer{
+    flex: 1 1 auto;
+}
+.user{
+  padding-left: 5px;
+  color: yellow;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  
+}
+.userClass{
+position: absolute;
+margin-top: -50px;
+margin-left: 900px;
+}
+mat-icon{
+   color: rgba(204, 198, 198, 0.562);
+   
+}
