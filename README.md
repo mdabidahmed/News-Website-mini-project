@@ -1,3 +1,4 @@
+host link: https://new-website-mini-project.netlify.app
 # Assignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
